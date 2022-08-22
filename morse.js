@@ -12,6 +12,7 @@ function adam(){
     const word=document.getElementById("org").value;
     let wor=String(word).toUpperCase();
     console.log(wor.length);
+    out.textContent = '';
     for(let i=0;i<wor.length;i+=1){
         for(let j=0;j<alphabets.length;j++){
             if(wor.charAt(i)==alphabets.charAt(j)){
